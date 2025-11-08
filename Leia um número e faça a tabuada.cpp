@@ -2,13 +2,13 @@
 using namespace std;
 
 int main() {
-	//Leia um número e imprima a tabuada de multiplicação desse número
+	//Leia um número e imprima a tabuada de multiplicação desse número até 10
 	 
-	 int i, numero;
+	 int  numero, limite;
 	 cout << "Escreva um numero: ";
 	 cin >> numero;
-	 
-	  for(i=1; i<=10; ++i)	
+
+	  for(int i=1; i<=10; ++i) 
 	  {
 	  	cout << numero << "*" << i << "=" << numero * i << endl; 
 	  }
